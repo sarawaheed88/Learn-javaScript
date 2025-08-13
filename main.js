@@ -151,10 +151,73 @@ Math object
 // console.log(Math.trunc(99.9));
 
 
-let a = 1_00 ;
-let b = 2_00.5 ;
-let c = 1e2 ;
-let d = 2.4 ;
+// let a = 1_00 ;
+// let b = 2_00.5 ;
+// let c = 1e2 ;
+// let d = 2.4 ;
 
-console.log(Math.min(a , b , c , d));
-console.log(Math.trunc(a , b , c , d));
+// console.log(Math.min(a , b , c , d));
+// console.log(Math.trunc(a , b , c , d));
+
+/*String Methods */
+//let theName = "Ahmed" ;
+// let theName = "  Ahmed  " ;
+// console.log(theName);
+// console.log(theName[0]);
+// console.log(theName[5]);
+
+// console.log(theName.charAt(1));
+// console.log(theName.charAt(5));
+
+// console.log(theName.length);
+// console.log(theName.trim());
+
+// console.log(theName.toUpperCase());
+// console.log(theName.toLowerCase());
+
+// console.log(theName.trim().charAt(2).toUpperCase());
+
+//let a = "Elzero Web School" ;
+// console.log(a.indexOf("Web"));
+// console.log(a.indexOf("Web" , 8));
+// console.log(a.indexOf("Web" , 5));
+
+// console.log(a.lastIndexOf("o"));
+
+// console.log(a.slice(2 , 6)); 
+// console.log(a.slice(-5  , -3)); 
+
+// console.log(a.repeat(5));
+
+// console.log(a.split(" " , 2));
+
+// console.log(a.length);
+
+// console.log(a.substring(2 , 6));
+// console.log(a.substring(8 , 2));
+// console.log(a.substring(-1 , 6));
+// console.log(a.substring(a.length - 5 , a.length - 3));
+
+// console.log(a.substr(0 , 8));
+// console.log(a.substr(-5 , 2));
+
+// console.log(a.includes("Web"));
+// console.log(a.includes("Web" , 8)); 
+// console.log(a.startsWith("E" , 4)); //length
+// console.log(a.endsWith("l" , 6)); //length
+
+/*comparison operators */
+
+// console.log(10 == "10"); //compare value only
+// console.log(-100 == "-100"); //compare value only
+// console.log(10 != "10"); //compare value only
+
+// console.log(10 === "10"); //compare value + type
+// console.log(10 !== 10); //compare value + type
+// console.log(10 !== "10"); //compare value + type
+
+/*logical operators */
+
+
+
+
