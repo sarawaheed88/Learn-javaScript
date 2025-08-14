@@ -84,7 +84,7 @@ Template literals ( Template Strings)
 // //console.log(a + " " + b + " " + c + " " + d) ;
 // console.log(`${a} " " ${b} / ${c} ${d}`)
 
-// 
+//
 
 /************************************************************************************************************ */
 
@@ -130,7 +130,6 @@ Number Methods
 // console.log(Number.isNaN(100));
 // console.log(Number.isNaN("sara" / 30));
 
-
 /*
 Math object
 */
@@ -149,7 +148,6 @@ Math object
 // console.log(Math.random());
 
 // console.log(Math.trunc(99.9));
-
 
 // let a = 1_00 ;
 // let b = 2_00.5 ;
@@ -184,8 +182,8 @@ Math object
 
 // console.log(a.lastIndexOf("o"));
 
-// console.log(a.slice(2 , 6)); 
-// console.log(a.slice(-5  , -3)); 
+// console.log(a.slice(2 , 6));
+// console.log(a.slice(-5  , -3));
 
 // console.log(a.repeat(5));
 
@@ -202,7 +200,7 @@ Math object
 // console.log(a.substr(-5 , 2));
 
 // console.log(a.includes("Web"));
-// console.log(a.includes("Web" , 8)); 
+// console.log(a.includes("Web" , 8));
 // console.log(a.startsWith("E" , 4)); //length
 // console.log(a.endsWith("l" , 6)); //length
 
@@ -218,6 +216,77 @@ Math object
 
 /*logical operators */
 
+/*control flow 
+if 
+else if 
+else
+*/
+// let price = 100 ;
+// let discount = false ;
+// let discountAmount = 30 ;
+// let country = "Egypt" ;
+// let student = true ;
 
+// if (discount === true){
+//     price -= discountAmount ;
+// }else if (country === "Egypt"){
+//     price -= 40 ;
+// } else {
+//     price -= 10 ;
+// }
+// console.log(price);
 
+/*Nested If*/
+// if ( country === "Egypt" ){
+//     if( student === true ){
+//         price -= discountAmount + 30 ;
+//     }else {
+//         price -= discountAmount + 10 ;
+//     }
+// }
 
+/* Conditional (Ternary) Operator */
+
+// let theName = "Ahmed";
+// let theGender = "Male";
+// let theAge = 24;
+
+// if (theGender === "Male") {
+//   console.log("Mr");
+// } else {
+//   console.log("Mrs");
+// }
+// //condition ? If True : If False
+// theGender === "Male" ? console.log("Mr") : console.log("Mrs");
+
+// let result = theGender === "Male" ? "Mr" : "Mrs";
+// //document.write(result);
+// console.log(theGender === "Male" ? "Mr" : "Mrs");
+// console.log(`Hello ${theGender === "Male" ? "Mr" : "Mrs"} ${theName}`);
+
+// theAge < 20
+//   ? document.write(20)
+//   : theAge > 20 && theAge < 60
+//   ? document.write("20 To 60")
+//   : theAge > 60
+//   ? document.write("Larger than 60")
+//   : document.write("UnKnown");
+
+/*Switch Statment */
+
+let day = 2 ;
+
+switch (day) {
+    case 0:
+        console.log("Saturday") ;
+        break ;
+    case 1:
+        console.log("Sunday") ;
+        break ;
+    case 2:
+        console.log("Monday") ;
+        break ;
+    default:
+        console.log("UnKnown Day") ;
+
+}
