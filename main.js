@@ -274,19 +274,118 @@ else
 
 /*Switch Statment */
 
-let day = 2 ;
+// let day = 2 ;
 
-switch (day) {
-    case 0:
-        console.log("Saturday") ;
-        break ;
-    case 1:
-        console.log("Sunday") ;
-        break ;
-    case 2:
-        console.log("Monday") ;
-        break ;
-    default:
-        console.log("UnKnown Day") ;
+// switch (day) {
+//     case 0:
+//         console.log("Saturday") ;
+//         break ;
+//     case 1:
+//         console.log("Sunday") ;
+//         break ;
+//     case 2:
+//         console.log("Monday") ;
+//         break ;
+//     default:
+//         console.log("UnKnown Day") ;
 
-}
+// }
+/************************************************************************************/
+/*Arrays*/
+// let myFriends = ["Ahmed", "Sara", "Waheed" , ["Marwan" , "Ali"]];
+// console.log(`Hello ${myFriends[0]}`);
+// console.log(`Hello ${myFriends[2]}`);
+// console.log(`${myFriends[1][0]}`);
+// console.log(`Hello ${myFriends[3]}`);
+// console.log(`Hello ${myFriends[3][1]}`);
+// console.log(`${myFriends[3][1][0]}`);
+
+// console.log(myFriends);
+// myFriends[1] = "Ahmed";
+// console.log(myFriends);
+
+// console.log(Array.isArray(myFriends));
+
+
+/*Array Methods (Length) */
+// let myFriends = ["Ahmed" , "Mohamed" , "Sara" , "Waheed"];
+// console.log(myFriends.length);
+// console.log(myFriends);
+
+// myFriends.unshift("SARAH" , "SARAH");
+// console.log(myFriends);
+
+// myFriends.push("SARAH" , "SARAH");
+// console.log(myFriends);
+
+// myFriends.shift();
+// console.log(myFriends);
+
+// myFriends.pop();
+// console.log(myFriends);
+
+// let myFriends = ["Ahmed" , "Mohamed" , "Sara" , "Waheed"];
+// console.log(myFriends);
+
+// console.log(myFriends.indexOf("Ahmed"));
+// console.log(myFriends.indexOf("Ahmed" , 2));
+
+// console.log(myFriends.lastIndexOf("Ahmed"));
+
+// console.log(myFriends.includes("Ahmed"));
+// console.log(myFriends.includes("Ahmed" , 2));
+
+// if (myFriends.indexOf("Ahmed") === -1) {
+//     console.log("Not Found");
+// } else {
+//     console.log("Found");
+// }
+
+
+// if (myFriends.indexOf("Samira") === -1) {
+//     console.log("Not Found");
+// } else {
+//     console.log("Found");
+// }
+
+
+// if (myFriends.lastIndexOf("Ahmed") === -1) {
+//     console.log("Not Found");
+// } else {
+//     console.log("Found");
+// }
+
+
+// let myFriends = [10 , "Ahmed" , "Sara" , "90" , 9000 , 100 , 20 , "10" , -20 , -10];
+// console.log(myFriends);
+// console.log(myFriends.sort());
+// console.log(myFriends.reverse());
+
+// let myFriends = ["Ahmed" , "Sara" , "Ali" , "Osama" , "Gamal" , "Ameer"];
+// console.log(myFriends);
+// console.log(myFriends.slice());
+// console.log(myFriends.slice(1));
+// console.log(myFriends.slice(1 , 3));
+// console.log(myFriends.slice(-3));
+// console.log(myFriends.slice(1 , -2));
+
+// myFriends.splice(1 , 2 , "AHMED" , "SARAH");
+// console.log(myFriends);
+
+let myFriends = ["Ahmed" , "Sara" , "Ali" , "Osama" , "Gamal" , "Ameer"];
+let myNewFriends = ["Samar" , "Sameh"];
+let schoolFriends = ["Haytham" , "Shady"];
+
+let allFriends = myFriends.concat(myNewFriends , schoolFriends , [1 ,2]);
+console.log(allFriends);
+console.log(allFriends.join());
+console.log(allFriends.join(""));
+console.log(allFriends.join(" @ "));
+console.log(allFriends.join("|"));
+console.log(allFriends.join("|").toUpperCase());
+
+
+
+
+
+
